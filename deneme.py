@@ -1,8 +1,7 @@
 from re import L
 import cv2
-import argparse
-import imutils
-import numpy as np
+
+
 
  
 #img = cv2.imread('/home/pyarena/python/OpenCV/objectDetection/image1.jpg')
@@ -71,26 +70,6 @@ while True:  #
         cv2.putText(img, f'Bos Masa Sayisi : {boş_masa}', org_masa_2, cv2.FONT_HERSHEY_COMPLEX, 1, (255,255,0), 2)
 
             
-
-    
-        
-    # if classNames[classId-1] == "diner table":
-    #     cv2.putText(img, f'{classNames[classId-1]} : {table}', org, cv2.FONT_HERSHEY_COMPLEX, 1, (255,255,0), 2)
-
-    #     person+=1
-    # else:
-    #     cv2.putText(img, f'{classNames[classId-1]} : {table}', org, cv2.FONT_HERSHEY_COMPLEX, 1, (255,255,0), 2)
-
-    #     person-=1
-            
-
-
-  
-         
-               
-                   
- 
- 
  
     cv2.imshow('output', img)
     key = cv2.waitKey(1)
